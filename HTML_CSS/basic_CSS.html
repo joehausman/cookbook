@@ -7,6 +7,34 @@
 body {  background-color: #CCFFFF;
         color: #000033;
 }
+
+p {
+    text-indent: 5em;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.reallycoolclass {
+    color: #0F0;
+    background-color: #222;
+    text-indent: 10em;
+    line-height: 150%;
+}
+
+#idthingy {
+    color: #FFF;
+    background-color: #000;
+    font-size: .8em;
+    font-family: monospace;
+    text-indent: 20em;
+}
+
+#idthingy p { /* contextual stuff oh fun */
+    font-size: 2em;
+}
 </style>
 </head>
 <body>
@@ -79,6 +107,30 @@ body {  background-color: #CCFFFF;
     oh wow these percentages get smol really quickly</p>
 </div>
 
+<!-- some other stuff I guess? idk -->
+<!-- going into way too much unnecessary detail here -->
+<div>
+    <p style="font-weight: bold;">this is some bold stuff</p>
+    <p style="font-style: italic;">moar itallic
+        <span style="font-style: oblique;">and oblique</span>
+        not entirely sure what the difference is though</p>
+    <p>normal line<br>height and<br>stuff</p>
+    <p style="line-height: 200%;">stuff things<br>line height<br>stuff things</p>
+    <p><a href="www.duckduckgo.com">duckduckgo</a>&nbsp;&nbsp;&lt;&mdash;&nbsp; sneaky linky</p>
+</div>
+<hr>
 
+<!-- class, id, and contextual stuff -->
+<!-- it's about time, amirite? -->
+<div class="reallycoolclass">
+    this is the place where the cool class happens and shows thingies happening
+</div>
+
+<div id="idthingy">
+    what is the point of id, though?<br>
+    stuffs and things
+    <p>context is pretty cool, yeah?</p>
+    moar stuffs and things
+</div>
 </body>
 </html>
