@@ -1,0 +1,28 @@
+/* these filenames are getting kinda bad */
+
+.external {
+    text-align: center;
+    background-color: #6374b7;
+    font-family: sans-serif;
+    font-size: 1.25em;
+}
+
+h1 {
+    color: #aa1618;
+}
+
+/*  below is a handy way to handle putting a margin on the entire page
+    but I think it will be covered in more detail later, so it's commented out for now */
+/*
+#wrapper {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+*/
