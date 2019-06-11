@@ -1,0 +1,30 @@
+/* (commented) arrows indicate where the demonstrative lines are */
+/* the other lines are merely to improve the display */
+.displayborder {
+    border-style: solid;
+    margin: 1.25em;
+    padding: 1em;
+}
+
+.thickborder {
+    border-width: thick; /* <-------- */
+}
+
+.mediumborder {
+    border-width: medium; /* <-------- */
+}
+
+.thinborder {
+    border-width: thin; /* <-------- */
+}
+
+.redborder {                /* dang self-explanatory, so I'll be brief */
+    border-color: #F00;
+}
+
+.somepadding {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
