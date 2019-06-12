@@ -22,9 +22,34 @@
     border-color: #F00;
 }
 
+.shorthandborder {
+    border: 2px solid red;
+}
+
 .somepadding {
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
+}
+
+.roundcorners {
+    border-radius: 15px;
+    border: 4px solid;
+}
+
+.unevencorners {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 50px;
+    border: 4px solid;
+}
+
+.shadowy {
+    box-shadow: 5px 10px #888;
+}
+
+.textshadowy {
+    text-shadow: 2px -3px #888;
 }
