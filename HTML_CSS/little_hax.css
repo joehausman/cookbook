@@ -1,0 +1,19 @@
+/* more intuitive boxes, yo */
+* {
+    box-sizing: border-box;
+}
+
+/* clearfix hack */
+.clearfix {
+    overflow: auto;
+}
+
+/* modern clearfix hack */
+/* to be perfectly honest, I have no idea what's going on here */
+/* @TODO: figure out what the heck is going on */
+/* stolen from: w3schools */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
