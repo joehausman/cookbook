@@ -92,3 +92,27 @@ h1 {
     display: flex;
     justify-content: space-between;
 }
+
+.flexy-align-center {
+    display: flex;
+    align-items: center;
+    height: 15em;
+}
+
+.flexy-align-start {
+    display: flex;
+    align-items: flex-start;
+    height: 15em;
+}
+
+.flexy-align-end {
+    display: flex;
+    align-items: flex-end;
+    height: 15em;
+}
+
+.flexy-align-stretch {
+    display: flex;
+    align-items: stretch;
+    height: 15em;
+}
