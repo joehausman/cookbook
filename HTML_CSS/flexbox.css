@@ -116,3 +116,10 @@ h1 {
     align-items: stretch;
     height: 15em;
 }
+
+.flexy-perf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15em;
+}
