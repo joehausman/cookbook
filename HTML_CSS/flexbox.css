@@ -67,3 +67,28 @@ h1 {
     flex-flow: column wrap;
     height: 15em;
 }
+
+.flexy-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flexy-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flexy-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flexy-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexy-between {
+    display: flex;
+    justify-content: space-between;
+}
