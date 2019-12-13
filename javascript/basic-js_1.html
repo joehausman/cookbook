@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>this is a title</title>
+<meta charset="utf-8">
+
+<style>
+</style>
+
+<head>
+<script>
+function headFunc() {
+    document.getElementById("thingy2").innerHTML = "this is a script tag in the head oh wow";
+}
+</script>
+<script src="basic-js_1.js"></script>
+</head>
+
+<body>
+<h1>getElementById innerHTML</h1>
+<p id="thing">
+this text shall be change'd
+</p>
+<button type="button" onclick='document.getElementById("thing").innerHTML = "thou art changeth"'">changeth</button><br><br>
+<button type="button" onclick='document.getElementById("thing").innerHTML = "this text shall be change&apos;d"'>chengeth back</button>
+
+<h1>change style</h1>
+<p id="moarthing">
+this text shall be enlarg'd
+</p>
+<button type="button" onclick='document.getElementById("moarthing").style.fontSize = "2em"'>enlargeth</button><br><br>
+<button type="button" onclick='document.getElementById("moarthing").style.fontSize = "1em"'>shrinketh back</button>
+
+<h1>hide element</h1>
+(visibility hidden)
+<p id="thingz2">
+    this text shall be hidden
+</p>
+<button type="button" onclick='document.getElementById("thingz2").style.visibility="hidden"'>hideth</button>
+<button type="button" onclick='document.getElementById("thingz2").style.visibility="visible"'>unhideth</button>
+
+<h1>hide element</h1>
+(display none)
+<p id="thingz">
+    this text shall disappear
+</p>
+<button type="button" onclick='document.getElementById("thingz").style.display="none"'>scribo invisibilia</button>
+<button type="button" onclick='document.getElementById("thingz").style.display="block"'>scribo visibilis</button>
+
+<hr>
+
+<h1>script tag of the body</h1>
+<p id="thingy"></p>
+<script>
+    document.getElementById("thingy").innerHTML = "this is a script tag oh wow";
+</script>
+
+<h1>script tag of the head</h1>
+<p id="thingy2"></p>
+<button type="button" onclick="headFunc()">calleth thine function</button>
+
+<h1>script tag of the external</h1>
+<p id="external"></p>
+<script>
+    doTheExternal();
+</script>
+<hr>
+
+<h1>document.write</h1>
+<script>
+    document.write(12 / 5);
+    document.write("<br>this doesn't seem all that useful");
+</script>
+
+<h1>window.alert</h1>
+<button type="button" onclick=alertWindow()>window alerteth</button>
+
+
+<h1>console.log</h1>
+<button type="button" onclick=logConsole()>loggeth consoleum</button>
+</body>
+
+<h1>variables and more</h1>
+<p id="variablePlace"></p>
+<script>
+    document.getElementById("variablePlace").innerHTML = variableTest();
+</script>
+</html>
