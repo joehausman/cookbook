@@ -1,0 +1,63 @@
+/* unrelated style */
+body {
+    color: #fff;
+    background-color: #333;
+    font-size: 1.25em;
+    font-family: monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+.category {
+    margin: 3em 0em 3em 0em;
+}
+
+.spacer {
+    padding: 2em;
+}
+
+/* anchor pseudo-classes */
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: yellow;
+}
+
+/* block element hover */
+p:hover {
+    background-color: #555;
+}
+
+p {
+    padding: 2em;
+}
+
+/* pseudo-class and regular class */
+div.hoverclass:hover {
+    background-color: #555;
+}
+
+/* child selectors */
+.first-example blockquote:first-child {
+    background-color: #555;
+}
+
+.last-example blockquote:last-child {
+    background-color: #555;
+}
+
+.nth-example blockquote:nth-child(2) {
+    background-color: #555;
+}
