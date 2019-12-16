@@ -63,7 +63,7 @@ h1 {
 }
 
 .flexy-flow-col {
-    diaplay: flex;
+    display: flex;
     flex-flow: column wrap;
     height: 15em;
 }
