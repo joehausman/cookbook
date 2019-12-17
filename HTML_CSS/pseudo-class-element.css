@@ -61,3 +61,24 @@ div.hoverclass:hover {
 .nth-example blockquote:nth-child(2) {
     background-color: #555;
 }
+
+/* first line / letter */
+.fline p::first-line {
+    text-transform: uppercase;
+    color: red;
+}
+
+.fletter p::first-letter {
+    font-size: 3em;
+    color: red;
+}
+
+/* before & after */
+h3::before {
+    content: "~~";
+    /* url() <-- this is probably more useful */
+}
+
+h3::after {
+    content: "~~";
+}
