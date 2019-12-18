@@ -63,6 +63,16 @@ hr {
     grid-gap: 5em;
 }
 
+.grid-col-se {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.grid-row-se {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
 .griddy-temp-col {
     display: grid;
     grid-template-columns: 10em 5em auto 3em;
