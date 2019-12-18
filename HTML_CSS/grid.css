@@ -77,3 +77,27 @@ hr {
     background-color: var(--light);
     padding: 1em;
 }
+
+.spacey-even {
+    justify-content: space-evenly;
+}
+
+.spacey-around {
+    justify-content: space-around;
+}
+
+.spacey-between {
+    justify-content: space-between;
+}
+
+.spacey-center {
+    justify-content: center;
+}
+
+.spacey-start {
+    justify-content: start;
+}
+
+.spacey-end {
+    justify-content: end;
+}
