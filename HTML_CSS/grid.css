@@ -8,16 +8,23 @@ body {
 
 h1 {
     text-align: center;
+    padding-top: 3em;
 }
 
 h2 {
     padding-top: 2em;
 }
 
+hr {
+    padding-bottom: 6em;
+    visibility: hidden;
+}
+
 :root {
     --medium: #444;
     --light: #555;
     --aaa: auto auto auto;
+    --aaaa: auto auto auto auto;
 }
 
 /* basic grid stuff */
@@ -40,6 +47,33 @@ h2 {
 .griddy-inline {
     display: inline-grid;
     grid-template-columns: var(--aaa);
+    background-color: var(--light);
+    padding: 1em;
+}
+
+.col-gap {
+    grid-column-gap: 5em;
+}
+
+.row-gap {
+    grid-row-gap: 5em;
+}
+
+.grid-gap {
+    grid-gap: 5em;
+}
+
+.griddy-temp-col {
+    display: grid;
+    grid-template-columns: 10em 5em auto 3em;
+    background-color: var(--light);
+    padding: 1em;
+}
+
+.griddy-temp-row {
+    display: grid;
+    grid-template-rows: auto 12em;
+    grid-template-columns: var(--aaaa);
     background-color: var(--light);
     padding: 1em;
 }
