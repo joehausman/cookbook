@@ -1,0 +1,45 @@
+/* copy pasta */
+body {
+    color: #fff;
+    background-color: #333;
+    font-size: 1.25em;
+    font-family: monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    padding-top: 2em;
+}
+
+:root {
+    --medium: #444;
+    --light: #555;
+    --aaa: auto auto auto;
+}
+
+/* basic grid stuff */
+
+.griddy {
+    display: grid;
+    grid-template-columns: var(--aaa);
+    background-color: var(--light);
+    padding: 1em;
+}
+
+.gridlet {
+    background-color: var(--medium);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 2em;
+    padding: 0.5em;
+}
+
+.griddy-inline {
+    display: inline-grid;
+    grid-template-columns: var(--aaa);
+    background-color: var(--light);
+    padding: 1em;
+}
