@@ -146,7 +146,7 @@ hr {
     align-content: end;
 }
 
-.griddy-15-16 {
+.griddy-15-16 { /* terrible name tbh; not even accurate any more */
     display: grid;
     grid-template-columns: var(--aaaaaa);
     background-color: var(--light);
@@ -167,4 +167,12 @@ hr {
 
 .tallish-item {
     grid-row: 1 / span 2;
+}
+
+.large-item {
+    grid-area: 1 / 2 / 5 / 6;
+}
+
+.largeish-item {
+    grid-area: 2 / 1 / span 2 / span 3;
 }
