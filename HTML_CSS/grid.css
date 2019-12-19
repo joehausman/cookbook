@@ -25,6 +25,7 @@ hr {
     --light: #555;
     --aaa: auto auto auto;
     --aaaa: auto auto auto auto;
+    --aaaaaa: auto auto auto auto auto auto;
 }
 
 /* basic grid stuff */
@@ -143,4 +144,27 @@ hr {
 
 .tall-end {
     align-content: end;
+}
+
+.griddy-15-16 {
+    display: grid;
+    grid-template-columns: var(--aaaaaa);
+    background-color: var(--light);
+    padding: 1em;
+}
+
+.wide-item {
+    grid-column: 1 / 5;
+}
+
+.wideish-item {
+    grid-column: 1 / span 3;
+}
+
+.tall-item {
+    grid-row: 1 / 4;
+}
+
+.tallish-item {
+    grid-row: 1 / span 2;
 }
